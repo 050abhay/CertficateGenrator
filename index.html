@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Certificate Generator</h1>
+        <input type="text" id="nameInput" placeholder="Enter your name" />
+        <button id="generateBtn">Generate Certificate</button>
+        <button id="downloadBtn">Download Certificate</button>
+        <div id="certificate" class="certificate">
+            <h2>Certificate of Achievement</h2>
+            <p>This certifies that</p>
+            <h1 id="userName">Your Name</h1>
+            <p>has successfully completed the course</p>
+            <p><strong>EduGlue Web Development Basics</strong></p>
+            <p>Date: <span id="date"></span></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+
+</body>
+</html>
